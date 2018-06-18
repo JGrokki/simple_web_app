@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
 
         try (PrintWriter out = response.getWriter()) {
-            out.println("<html><body><h1>Hello :)</h1><p>I am running on an embedded Tomcat, thanks to Maven (3)</p></body></html>");
+            out.println("<html><body><h1>Hello :)</h1><p>I am running on an embedded Tomcat, thanks to Maven (4)</p></body></html>");
         }
     }
 }
